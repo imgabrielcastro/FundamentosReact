@@ -55,6 +55,12 @@ export default function Home() {
           navigate("/useContext");
         }}
       />
+      <ButtonToNavigate
+        label="useReducer"
+        onClick={() => {
+          navigate("/useReducer");
+        }}
+      />
     </Box>
   );
 }
