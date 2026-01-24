@@ -61,6 +61,12 @@ export default function Home() {
           navigate("/useReducer");
         }}
       />
+      <ButtonToNavigate
+        label="useCallback"
+        onClick={() => {
+          navigate("/useCallback");
+        }}
+      />
     </Box>
   );
 }

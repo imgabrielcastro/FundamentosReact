@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Box, CssBaseline } from "@mui/material";
 import { NameProvider } from "./contexts/NameContext";
 import UseReducerExample from "./pages/useReducer";
+import UseCallbackExample from "./pages/useCallback";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")!).render(
             <Route path="/useRef" element={<UseRefExample />} />
             <Route path="/useContext" element={<UseContextExample />} />
             <Route path="/useReducer" element={<UseReducerExample />} />
+            <Route path="/useCallback" element={<UseCallbackExample />} />
           </Routes>
         </Box>
       </Router>
