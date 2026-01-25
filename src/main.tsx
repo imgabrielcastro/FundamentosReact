@@ -10,6 +10,7 @@ import { Box, CssBaseline } from "@mui/material";
 import { NameProvider } from "./contexts/NameContext";
 import UseReducerExample from "./pages/useReducer";
 import UseCallbackExample from "./pages/useCallback";
+import UseMemoExample from "./pages/useMemo";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -25,6 +26,7 @@ createRoot(document.getElementById("root")!).render(
             <Route path="/useContext" element={<UseContextExample />} />
             <Route path="/useReducer" element={<UseReducerExample />} />
             <Route path="/useCallback" element={<UseCallbackExample />} />
+            <Route path="/useMemo" element={<UseMemoExample />} />
           </Routes>
         </Box>
       </Router>

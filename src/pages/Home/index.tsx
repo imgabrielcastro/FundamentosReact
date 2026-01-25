@@ -67,6 +67,12 @@ export default function Home() {
           navigate("/useCallback");
         }}
       />
+      <ButtonToNavigate
+        label="useMemo"
+        onClick={() => {
+          navigate("/useMemo");
+        }}
+      />
     </Box>
   );
 }
